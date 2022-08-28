@@ -1,0 +1,242 @@
+.color-blue {
+    color: #000 !important;
+    font-weight: 600;
+}
+.Text-icon{
+    justify-content: space-between !important;
+}
+.Icon-1{
+    color: #90a3bf !important;
+    font-size: 14px !important;
+    display: flex !important;
+}
+.btn-menu a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.btn-menu2 {
+ background-color: #3563e9 !important;
+  border: none;
+  font-family:;
+  font-weight:600;
+  display: inline-block !important;
+  font-size: 14px;
+  padding: 10px 20px !important;
+  color: #fff;
+  border-radius: 4px;
+}
+.card{
+    width: 304px; 
+    border-radius: 10px;
+    padding: 15px 20px 10px 20px
+}
+.footer-site{
+    padding-top: 10px !important;
+}
+.Main-title{
+    justify-content: space-between !important;
+    padding: 0 20px 0 20px;
+}
+.bi-heart{
+    color: red;
+    
+}
+.bi-heart:hover {
+    cursor: pointer;
+    position: relative;
+    animation: pulse 1s ease infinite;
+    background-co/*lor: red;
+     border-radius: 50px 50px 0 0;*/
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+  
+}
+.card-title{
+    font-size: 20px !important;
+    margin-bottom: 0.3rem !important;
+}
+.card-head{
+    line-height: 10px !important;
+    font-size: 14px !important;
+    color:#90a3bf !important;
+}
+.img-size-one{
+    display: none;
+}
+.unorder{
+    display: none;
+}
+.Number-range{
+   display: flex;
+}
+h4{
+    font-weight: 700;
+}
+.Date{
+    font-size: 14px !important;
+    color: #90a3bf !important;
+    padding:5px 0 0 1px !important;
+}
+.flex-item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc( (1/3) - 10px - 1px);
+}
+.search{
+    display: flex !important;
+}
+.bi-search{
+    position: relative;
+    left: 3vw;
+    padding-top: 1.5vh;
+
+}
+.navbar-nav{
+      padding-left: 10vw;
+}
+.search-box {
+   border-radius: 170px !important;
+    padding: 0 80px 0 4vw !important ;
+}
+
+.wrapper {
+    padding: 20 !important;
+    background-color: #f3f3f3;
+}
+
+#main-nav {
+    padding: 1.5rem !important;
+}
+
+.footer{
+    justify-content: space-between !important;
+}
+.column-1{
+    padding-right: 6vw !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .color-blue {
+    color: #000 !important;
+    font-weight: 600;
+}
+.navbar-nav{
+      padding-left: 1vw;
+}
+.search-box {
+    border-radius: 170px !important;
+    padding: 0 80px 0 4vw !important ;
+}
+.navbar-expand-md .navbar-collapse {padding-left: 2vw;}
+
+}
+
+@media screen and (max-width: 767px) {
+    .search{
+    display: flex;
+}
+.navbar-nav{
+      padding-left: 20vw;
+}
+#main-nav {
+    padding: 1.5rem !important;
+  
+}
+.bi-search{
+    position: relative;
+    left: 7vw;
+    padding-top: 1.9vh;
+   
+}
+.search-box {
+    border-radius: 170px !important;
+    padding: 0 20vw 0 9vw !important ;
+    
+}
+
+
+    .card{
+        width: 330px;
+        border-radius: 10px;
+        padding: 15px 20px 0 20px;
+
+    }
+    .card-title{
+    font-size: 16px;
+    margin-bottom: 0.3rem
+    }
+    .card-head{
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+
+    }
+    .img-size{
+    display: none;
+
+    }
+    .img-size-one{
+    display: block;
+    width: 160px;
+    margin:5px 0 0 20px;
+    }
+    .unorder{
+    display: block;
+
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        display: flex;
+        font-size: 12px;
+        color:#90a3bf ;
+    }
+    h4{
+    font-weight: 700;
+    font-size: 20px;
+    }
+    .Date{
+    font-size: 12px;
+    color: #90a3bf;
+   
+    }
+    .Text-icon{
+        display: none;
+    }
+    .Icon-1{
+    color: #90a3bf;
+    font-size: 14px;
+   
+    }
+    .btn-menu a{
+    text-decoration: none;
+    color: #fff;
+    }
+    .Number-range{
+        line-height: 20px;
+    }
+    .btn-menu2 {
+    background-color: #3563e9;
+     border: none;
+    font-family:;
+    font-weight:600;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    }
+    .footer-site{
+        padding: 0 !important;
+        margin-top: -25px;
+    }
+}
